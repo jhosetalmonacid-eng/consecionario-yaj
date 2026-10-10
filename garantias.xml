@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garantias>
+    <vehiculo tipo="carro">
+        <duracion>3 años</duracion>
+        <kilometraje>100000 km</kilometraje>
+        <cobertura>Motor y transmisión</cobertura>
+    </vehiculo>
+<vehiculo tipo="moto">
+    <duracion>2 años</duracion>
+    <kilometraje>40000 km</kilometraje>
+    <cobertura>Motor y transmisión</cobertura>
+</vehiculo>
+</garantias>

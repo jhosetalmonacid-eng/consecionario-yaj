@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YAJ | Concesionario de vehículos</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>YAJ</h1>
+            <p>Concesionario de vehículos</p>
+        </div>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="menu">
+        <div class="contenedor">
+            <a href="#inicio">Inicio</a>
+            <a href="#inventario">Inventario</a>
+            <a href="#calculadora">Calculadora</a>
+            <a href="#garantias">Garantías</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- PRESENTACIÓN -->
+    <main>
+
+        <section id="inicio" class="hero">
+            <div class="contenedor">
+                <h2>Encuentra tu próximo vehículo</h2>
+
+                <p>
+                    Explora nuestro catálogo y calcula el precio
+                    según tu forma de pago.
+                </p>
+
+                <a href="#inventario" class="boton">
+                    Explorar inventario
+                </a>
+            </div>
+        </section>
+
+        <!-- CATÁLOGO -->
+        <section id="inventario" class="inventario">
+            <div class="contenedor">
+                <h2>Nuestro inventario</h2>
+
+                <div id="lista-vehiculos" class="vehiculos">
+                    <p>Cargando vehículos...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALCULADORA -->
+        <section id="calculadora" class="seccion-calculadora">
+            <div class="contenedor">
+                <h2>Calculadora de precios YAJ</h2>
+
+                <p>
+                    Selecciona un vehículo del inventario para
+                    calcular el precio de contado o a crédito.
+                </p>
+
+                <div id="calculadora-contenido">
+                    <p>
+                        Selecciona un vehículo para comenzar.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- GARANTÍAS -->
+        <section id="garantias" class="garantias">
+            <div class="contenedor">
+                <h2>Garantías</h2>
+
+                <div id="lista-garantias">
+                    <p>Cargando garantías...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOLICITUD DE COMPRA -->
+        <section id="solicitud-compra" class="solicitud-compra">
+            <div class="contenedor">
+                <h2>Solicitud de compra</h2>
+
+                <div id="vehiculo-seleccionado">
+                    <p>Selecciona un vehículo del inventario.</p>
+                </div>
+
+                <form id="formulario-compra">
+
+                    <label for="nombre">Nombre completo:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                    >
+
+                    <label for="telefono">Teléfono:</label>
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        required
+                    >
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required
+                    >
+
+                    <button type="submit">
+                        Enviar solicitud
+                    </button>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenedor">
+                <h2>Contáctanos</h2>
+
+                <p>
+                    Estamos aquí para ayudarte a elegir tu próximo vehículo.
+                </p>
+
+                <p>Concesionario YAJ</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="contenedor">
+            <p>&copy; 2026 Concesionario YAJ</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "tipo": "carro",
+      "marca": "Mazda",
+      "modelo": "CX-30",
+      "año": 2024,
+      "precioUSD": 26500,
+      "transmision": "Automática",
+      "imagen": "img/mazda-cx30.jpg"
+    },
+    {
+      "id": 2,
+      "tipo": "carro",
+      "marca": "Toyota",
+      "modelo": "Corolla Cross",
+      "año": 2023,
+      "precioUSD": 28000,
+      "transmision": "Automática",
+      "imagen": "img/toyota-corolla-cross.png"
+    },
+    {
+      "id": 3,
+      "tipo": "carro",
+      "marca": "Chevrolet",
+      "modelo": "Onix Turbo",
+      "año": 2023,
+      "precioUSD": 16500,
+      "transmision": "Mecánica",
+      "imagen": "img/chevrolet-onix.png" 
+    },
+    {
+      "id": 4,
+      "tipo": "carro",
+      "marca": "Ford",
+      "modelo": "Mustang GT",
+      "año": 2024,
+      "precioUSD": 58000,
+      "transmision": "Automática",
+      "imagen": "img/ford-mustang-gt.png"
+    },
+    {
+      "id": 5,
+      "tipo": "carro",
+      "marca": "Renault",
+      "modelo": "Duster",
+      "año": 2023,
+      "precioUSD": 19500,
+      "transmision": "Mecánica",
+      "imagen": "img/renault-duster.png"
+    },
+    {
+      "id": 6,
+      "tipo": "carro",
+      "marca": "BMW",
+      "modelo": "M3 Competition",
+      "año": 2024,
+      "precioUSD": 85000,
+      "transmision": "Automática",
+      "imagen": "img/bmw-m3.png"
+    },
+    {
+      "id": 7,
+      "tipo": "carro",
+      "marca": "Nissan",
+      "modelo": "Kicks",
+      "año": 2023,
+      "precioUSD": 21000,
+      "transmision": "Automática",
+      "imagen": "img/nissan-kicks.png"
+    },
+    {
+      "id": 8,
+      "tipo": "carro",
+      "marca": "Volkswagen",
+      "modelo": "Golf GTI",
+      "año": 2024,
+      "precioUSD": 32000,
+      "transmision": "Automática",
+      "imagen": "img/volkswagen-golf-gti.png"
+    },
+    {
+      "id": 9,
+      "tipo": "carro",
+      "marca": "Kia",
+      "modelo": "Sportage",
+      "año": 2024,
+      "precioUSD": 31000,
+      "transmision": "Automática",
+      "imagen": "img/kia-sportage.png"
+    },
+    {
+      "id": 10,
+      "tipo": "carro",
+      "marca": "Audi",
+      "modelo": "Q5",
+      "año": 2024,
+      "precioUSD": 54000,
+      "transmision": "Automática",
+      "imagen": "img/audi-q5.png"
+    },
+    {
+      "id": 11,
+      "tipo": "moto",
+      "marca": "Yamaha",
+      "modelo": "MT-07",
+      "año": 2024,
+      "precioUSD": 8200,
+      "cilindraje": "689 cc",
+      "imagen": "img/yamaha-mt07.png"
+    },
+    {
+      "id": 12,
+      "tipo": "moto",
+      "marca": "Kawasaki",
+      "modelo": "Ninja 400",
+      "año": 2023,
+      "precioUSD": 6500,
+      "cilindraje": "399 cc",
+      "imagen": "img/kawasaki-ninja-400.png"
+    },
+    {
+      "id": 13,
+      "tipo": "moto",
+      "marca": "Honda",
+      "modelo": "CB650R",
+      "año": 2024,
+      "precioUSD": 9500,
+      "cilindraje": "649 cc",
+      "imagen": "img/honda-cb650r.png"
+    },
+    {
+      "id": 14,
+      "tipo": "moto",
+      "marca": "Ducati",
+      "modelo": "Panigale V2",
+      "año": 2024,
+      "precioUSD": 18500,
+      "cilindraje": "955 cc",
+      "imagen": "img/ducati-panigale-v2.png"
+    },
+    {
+      "id": 15,
+      "tipo": "moto",
+      "marca": "KTM",
+      "modelo": "Duke 390",
+      "año": 2023,
+      "precioUSD": 5800,
+      "cilindraje": "373 cc",
+      "imagen": "img/ktm-duke-390.png"
+    },
+    {
+      "id": 16,
+      "tipo": "moto",
+      "marca": "BMW",
+      "modelo": "S1000RR",
+      "año": 2024,
+      "precioUSD": 21000,
+      "cilindraje": "999 cc",
+      "imagen": "img/bmw-s1000rr.png"
+    },
+    {
+      "id": 17,
+      "tipo": "moto",
+      "marca": "Suzuki",
+      "modelo": "GSX-R750",
+      "año": 2023,
+      "precioUSD": 12800,
+      "cilindraje": "750 cc",
+      "imagen": "img/suzuki-gsxr750.png"
+    },
+    {
+      "id": 18,
+      "tipo": "moto",
+      "marca": "Royal Enfield",
+      "modelo": "Interceptor 650",
+      "año": 2024,
+      "precioUSD": 6200,
+      "cilindraje": "648 cc",
+      "imagen": "img/royal-enfield-interceptor-650.png"
+    },
+    {
+      "id": 19,
+      "tipo": "moto",
+      "marca": "Triumph",
+      "modelo": "Street Triple 765",
+      "año": 2024,
+      "precioUSD": 10800,
+      "cilindraje": "765 cc",
+      "imagen": "img/triumph-street-triple-765.png"
+    },
+    {
+      "id": 20,
+      "tipo": "moto",
+      "marca": "Harley-Davidson",
+      "modelo": "Iron 883",
+      "año": 2023,
+      "precioUSD": 11200,
+      "cilindraje": "883 cc",
+      "imagen": "img/harley-davidson-iron-883.png"
+    }
+  ]

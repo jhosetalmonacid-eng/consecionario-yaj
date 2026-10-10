@@ -1,0 +1,552 @@
+/* ========================================
+   CONFIGURACIÓN GENERAL
+======================================== */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+/* ========================================
+   ENCABEZADO
+======================================== */
+
+.encabezado {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 4px solid #f5c518;
+}
+
+.encabezado h1 {
+    font-size: 42px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.encabezado p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+
+/* ========================================
+   MENÚ DE NAVEGACIÓN
+======================================== */
+
+.menu {
+    background-color: #1b1b1b;
+    padding: 15px 0;
+}
+
+.menu .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #f5c518;
+}
+
+
+/* ========================================
+   PRESENTACIÓN PRINCIPAL
+======================================== */
+
+.hero {
+    background: linear-gradient(135deg, #111, #333);
+    color: #fff;
+    text-align: center;
+    padding: 85px 20px;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    max-width: 100%;
+    padding: 13px 22px;
+    background-color: #f5c518;
+    color: #111;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.boton:hover {
+    background-color: #ffda44;
+}
+
+
+/* ========================================
+   INVENTARIO Y CATÁLOGO
+======================================== */
+
+.inventario {
+    padding: 60px 0;
+}
+
+.inventario h2 {
+    font-size: 32px;
+}
+
+/* Cuadrícula del catálogo */
+
+.vehiculos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Tarjeta individual */
+
+.tarjeta-vehiculo {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.tarjeta-vehiculo:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Área de fotografía: todas las imágenes tienen el mismo espacio */
+
+.imagen-vehiculo {
+    display: block;
+    width: 100%;
+    height: 220px;
+    flex-shrink: 0;
+    padding: 12px;
+    object-fit: contain;
+    object-position: center;
+    background-color: #fff;
+}
+
+/* Información del vehículo */
+
+.contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+    overflow-wrap: anywhere;
+}
+
+.contenido-tarjeta h3 {
+    margin-bottom: 12px;
+    color: #111;
+    font-size: 20px;
+    line-height: 1.35;
+}
+
+.contenido-tarjeta p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.contenido-tarjeta .precio-vehiculo {
+    margin-top: 8px;
+    margin-bottom: 18px;
+    color: #111;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* Botón pegado a la parte inferior de la tarjeta */
+
+.contenido-tarjeta .boton {
+    width: 100%;
+    margin-top: auto;
+    white-space: normal;
+}
+
+
+/* ========================================
+   CALCULADORA
+======================================== */
+
+.seccion-calculadora {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.seccion-calculadora h2 {
+    font-size: 32px;
+}
+
+.seccion-calculadora > .contenedor > p {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#calculadora-contenido {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px;
+    overflow-wrap: anywhere;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+#calculadora-contenido h3 {
+    margin-bottom: 12px;
+}
+
+#calculadora-contenido p {
+    margin-bottom: 12px;
+}
+
+#calculadora-contenido label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#calculadora-contenido select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+#resultado-calculadora {
+    margin-top: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff3b0;
+    overflow-wrap: anywhere;
+}
+
+#resultado-calculadora h3 {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+
+/* ========================================
+   GARANTÍAS
+======================================== */
+
+.garantias {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+#lista-garantias {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tarjeta-garantia {
+    min-width: 0;
+    padding: 25px;
+    background-color: #fff;
+    border-left: 5px solid #f5c518;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow-wrap: anywhere;
+}
+
+.tarjeta-garantia h3 {
+    margin-bottom: 15px;
+}
+
+.tarjeta-garantia p {
+    margin-bottom: 8px;
+}
+
+
+/* ========================================
+   SOLICITUD DE COMPRA
+======================================== */
+
+.solicitud-compra {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#vehiculo-seleccionado,
+#formulario-compra {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#vehiculo-seleccionado {
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+#vehiculo-seleccionado h3 {
+    margin-bottom: 10px;
+}
+
+#formulario-compra label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#formulario-compra input {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+#formulario-compra button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 7px;
+    background-color: #f5c518;
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formulario-compra button:hover {
+    background-color: #ffda44;
+}
+
+/* ========================================
+   CONFIRMACIÓN DE SOLICITUD
+======================================== */
+
+.mensaje-exito {
+    width: 100%;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 28px;
+    background-color: #ecfdf5;
+    color: #14532d;
+    border: 1px solid #86efac;
+    border-left: 6px solid #16a34a;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    overflow-wrap: anywhere;
+}
+
+.mensaje-exito h3 {
+    margin-bottom: 15px;
+    color: #15803d;
+    font-size: 24px;
+}
+
+.mensaje-exito p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.mensaje-exito hr {
+    margin: 18px 0;
+    border: 0;
+    border-top: 1px solid #bbf7d0;
+}
+
+.mensaje-exito .nota-confirmacion {
+    margin-top: 20px;
+    padding: 14px;
+    background-color: #d1fae5;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ========================================
+   CONTACTO
+======================================== */
+
+.contacto {
+    padding: 50px 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.contacto h2 {
+    margin-bottom: 18px;
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+
+
+/* ========================================
+   PIE DE PÁGINA
+======================================== */
+
+footer {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ========================================
+   DISEÑO RESPONSIVO
+======================================== */
+
+/* Portátiles pequeños y tabletas */
+
+@media (max-width: 950px) {
+    .vehiculos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+}
+
+/* Celulares */
+
+@media (max-width: 600px) {
+    .contenedor {
+        width: 92%;
+    }
+
+    .encabezado h1 {
+        font-size: 34px;
+    }
+
+    .hero {
+        padding: 60px 18px;
+    }
+
+    .hero h2 {
+        font-size: 29px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .menu .contenedor {
+        gap: 15px;
+    }
+
+    .inventario {
+        padding: 40px 0;
+    }
+
+    .inventario h2,
+    .seccion-calculadora h2 {
+        font-size: 27px;
+    }
+
+    .vehiculos {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 22px;
+    }
+
+    .imagen-vehiculo {
+        height: 230px;
+    }
+
+    .contenido-tarjeta {
+        padding: 18px;
+    }
+
+    #lista-garantias {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    #calculadora-contenido {
+        padding: 18px;
+    }
+
+    #vehiculo-seleccionado,
+    #formulario-compra {
+        padding: 18px;
+    }
+}
